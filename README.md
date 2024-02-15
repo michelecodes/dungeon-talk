@@ -6,7 +6,7 @@ O projeto consiste na criação de uma API para um sistema de chat voltado para 
 ## Tecnologias Utilizadas:
 - Java: Linguagem de programação principal para o desenvolvimento da API.
 - Spring Boot: Framework que facilita a criação de aplicativos Java baseados em Spring, fornecendo configuração pré-definida para facilitar o desenvolvimento.
-- Banco de Dados (a ser definido): Para armazenar informações sobre os usuários, campanhas, habilidades, etc.
+- Banco de Dados ( PostgreSQL): Para armazenar informações sobre os usuários, campanhas, habilidades, etc.
 
 ## Funcionalidades Planejadas:
 - Autenticação de Usuários: Permitir que os jogadores façam login e autentiquem-se no sistema.
