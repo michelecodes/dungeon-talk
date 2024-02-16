@@ -1,4 +1,4 @@
-# Conteúdos complementares
+# CONHECENDO APIs
 
 ## O que é uma API?
 APIs são mecanismos que permitem que dois componentes de software se comuniquem usando um conjunto de definições e protocolos. 
@@ -18,7 +18,48 @@ A arquitetura da API geralmente é explicada em termos de cliente e servidor. A 
 
 - APIs REST: mais populares e flexíveis encontradas na Web atualmente. O cliente envia solicitações ao servidor como dados. O servidor usa essa entrada do cliente para iniciar funções internas e retorna os dados de saída ao cliente. Vejamos as APIs REST em mais detalhes abaixo.
 
-# Conhecendo API REST
+# USANDO APIs
+
+## Como criar uma API?
+
+- Planejar a API: as especificações da API, como OpenAPI, fornecem o esquema para o design da sua API. É melhor pensar em diferentes casos de uso com antecedência e garantir que a API esteja de acordo com os padrões atuais de desenvolvimento de API.
+- Criar a API: os designers de APIs prototipam APIs usando código boilerplate. Depois que o protótipo é testado, os desenvolvedores podem personalizá-lo de acordo com as especificações internas.
+- Testar a API: teste de API é o mesmo que o teste de software e deve ser feito para evitar bugs e defeitos. As ferramentas de teste de API podem ser usadas para testar a resistência da API contra ataques cibernéticos.
+- Documentar a API: embora as APIs sejam autoexplicativas, a documentação da API funciona como um guia para melhorar a usabilidade. APIs bem documentadas que oferecem uma série de funções e casos de uso tendem a ser mais populares em uma arquitetura orientada a serviços.
+- Comercializar a API: assim como a Amazon é um marketplace online para varejo, existem marketplaces de API para desenvolvedores comprarem e venderem outras APIs. Catalogar sua API pode permitir que você ganhe dinheiro com ela.
+
+## O que é teste de API?
+As estratégias de teste de API são semelhantes a outras metodologias de teste de software. O principal foco é validar as respostas do servidor. O teste de API inclui:
+
+- Fazer várias solicitações a endpoints de API para testes de performance.
+- Escrever testes de unidade para verificar a lógica de negócios e a correção funcional.
+- Testar a segurança simulando ataques ao sistema. 
+
+## Como escrever a documentação da API?
+Escrever uma documentação de API abrangente faz parte do processo de gerenciamento de API. A documentação da API pode ser gerada automaticamente usando ferramentas ou escrita manualmente. Algumas práticas recomendadas incluem:
+
+- Escrever explicações em inglês simples e fácil de ler. Documentos gerados por ferramentas podem se tornar prolixos e exigir edição.
+- Usar exemplos de código para explicar a funcionalidade.
+- Fazer a manutenção da documentação para que seja precisa e atualizada.
+- Visar o estilo de escrita para iniciantes
+- Abranger todos os problemas que a API pode solucionar para os usuários.
+
+## Como usar uma API?
+As etapas para implementar uma nova API incluem:
+
+- Obter uma chave de API. Isso é feito criando uma conta verificada com o provedor de API.
+- Configure um cliente de API HTTP. Essa ferramenta permite estruturar solicitações de API facilmente usando as chaves de API recebidas.
+- Se você não tiver um cliente de API, tente estruturar a solicitação por conta própria em seu navegador consultando a documentação da API.
+- Quando estiver familiarizado com a nova sintaxe da API, você poderá começar a usá-la em seu código.
+
+## Onde posso encontrar novas APIs?
+Novas APIs Web podem ser encontradas em marketplaces de APIs e diretórios de APIs. Os marketplaces de API são plataformas abertas nas quais qualquer pessoa pode catalogar uma API para venda. Os diretórios de APIs são repositórios controlados e regulamentados pelo proprietário do diretório. Designers de API experientes podem avaliar e testar uma nova API antes de adicioná-la ao diretório. Alguns sites de API populares incluem:
+
+- RapidAPI: o maior mercado global de APIs com mais de 10.000 APIs públicas e 1 milhão de desenvolvedores ativos no local. O RapidAPI permite que os usuários testem APIs diretamente na plataforma antes de fazer a compra.
+- Public APIs: a plataforma agrupa APIs remotas em 40 categorias de nicho, tornando mais fácil navegar e encontrar a API certa para atender às suas necessidades.
+- APIForThat e APIList: ambos os sites têm listas de mais de 500 APIs Web, juntamente com informações detalhadas sobre como usá-las.
+
+# CONHECENDO API REST
 
 ## O que são APIs REST?
 REST significa Transferência Representacional de Estado. REST define um conjunto de funções como GET, PUT, DELETE e assim por diante, que os clientes podem usar para acessar os dados do servidor. Clientes e servidores trocam dados usando HTTP.
